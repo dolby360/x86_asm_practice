@@ -143,6 +143,7 @@
     <ClCompile Include="asmPractice.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <MASM Include="addThreeNumbers.asm" />
     <MASM Include="prac.asm">
       <FileType>Document</FileType>
     </MASM>

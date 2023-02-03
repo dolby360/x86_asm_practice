@@ -23,5 +23,8 @@
     <MASM Include="prac.asm">
       <Filter>Source Files</Filter>
     </MASM>
+    <MASM Include="addThreeNumbers.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
   </ItemGroup>
 </Project>

@@ -64,7 +64,7 @@ t2:
 t3:
 	
 	CMP al, 255 ; check if the 2 numbers are the same 
-	jne t4
+	jne t4		; jump if not equal
 	mov al,0
 t4:	
 	pop edi
