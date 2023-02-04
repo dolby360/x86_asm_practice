@@ -144,6 +144,7 @@
   </ItemGroup>
   <ItemGroup>
     <MASM Include="addThreeNumbers.asm" />
+    <MASM Include="mulDiv.asm" />
     <MASM Include="prac.asm">
       <FileType>Document</FileType>
     </MASM>

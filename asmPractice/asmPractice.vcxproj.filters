@@ -26,5 +26,8 @@
     <MASM Include="addThreeNumbers.asm">
       <Filter>Source Files</Filter>
     </MASM>
+    <MASM Include="mulDiv.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
   </ItemGroup>
 </Project>

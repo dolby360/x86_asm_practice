@@ -20,6 +20,6 @@ lp:
 	loop lp
 
 	pop ebp
-	ret
+	ret ;eax is used as the return value.
 addThree endp
 end
