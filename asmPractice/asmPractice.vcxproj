@@ -144,6 +144,8 @@
   </ItemGroup>
   <ItemGroup>
     <MASM Include="addThreeNumbers.asm" />
+    <MASM Include="allocate_local_var_on_stack.asm" />
+    <MASM Include="lookupTable.asm" />
     <MASM Include="mulDiv.asm" />
     <MASM Include="prac.asm">
       <FileType>Document</FileType>

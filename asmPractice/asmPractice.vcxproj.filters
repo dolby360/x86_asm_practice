@@ -29,5 +29,11 @@
     <MASM Include="mulDiv.asm">
       <Filter>Source Files</Filter>
     </MASM>
+    <MASM Include="allocate_local_var_on_stack.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="lookupTable.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
   </ItemGroup>
 </Project>
