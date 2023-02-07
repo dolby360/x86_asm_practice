@@ -145,11 +145,13 @@
   <ItemGroup>
     <MASM Include="addThreeNumbers.asm" />
     <MASM Include="allocate_local_var_on_stack.asm" />
+    <MASM Include="findMin.asm" />
     <MASM Include="lookupTable.asm" />
     <MASM Include="mulDiv.asm" />
     <MASM Include="prac.asm">
       <FileType>Document</FileType>
     </MASM>
+    <MASM Include="useGlobal.asm" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

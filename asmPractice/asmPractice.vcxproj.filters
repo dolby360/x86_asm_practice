@@ -35,5 +35,11 @@
     <MASM Include="lookupTable.asm">
       <Filter>Source Files</Filter>
     </MASM>
+    <MASM Include="useGlobal.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="findMin.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
   </ItemGroup>
 </Project>
