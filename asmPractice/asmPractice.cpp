@@ -1,5 +1,6 @@
 
 #include <iostream>
+#include <inttypes.h>
 
 extern "C" {
 	void prac();
@@ -13,6 +14,8 @@ extern "C" {
 	long long gLongLong = 0x00FFFFFFFFFFFFFF;
 	void glob(long long a);
 	int getMin(int a, int b);
+	int sumArray(int* arr, int size);
+	void twoD(int* arr, uint8_t col, uint8_t row);
 }
 
 int main()
@@ -43,5 +46,18 @@ int main()
 	int a = 2;
 	int b = 4;
 	std::cout << "min(2,4) = " << getMin(a, b) << std::endl;
+
+
+	int arr[] = { 1,1,1,1 };
+	std::cout << "sum of array is = " << sumArray(arr, 4) << std::endl;
 	*/
+
+	int arr[][4] = { {1,1,1,1}, {1,1,1,1} , {1,1,1,1} };
+	twoD((int *)arr, 4, 3);
+	for (int i = 0; i < 3; i++) {
+		for (int j = 0; j < 4; j++) {
+			std::cout << arr[i][j] << " ";
+		}
+		std::cout << std::endl;
+	}
 }

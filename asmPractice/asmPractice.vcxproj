@@ -143,8 +143,10 @@
     <ClCompile Include="asmPractice.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <MASM Include="2dArray.asm" />
     <MASM Include="addThreeNumbers.asm" />
     <MASM Include="allocate_local_var_on_stack.asm" />
+    <MASM Include="calcArraySum.asm" />
     <MASM Include="findMin.asm" />
     <MASM Include="lookupTable.asm" />
     <MASM Include="mulDiv.asm" />

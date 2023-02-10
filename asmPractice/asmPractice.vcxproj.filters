@@ -41,5 +41,11 @@
     <MASM Include="findMin.asm">
       <Filter>Source Files</Filter>
     </MASM>
+    <MASM Include="calcArraySum.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="2dArray.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
   </ItemGroup>
 </Project>
