@@ -16,6 +16,8 @@ extern "C" {
 	int getMin(int a, int b);
 	int sumArray(int* arr, int size);
 	void twoD(int* arr, uint8_t col, uint8_t row);
+	void cpyString(char* dest, char* src, int size);
+	int countCharacters(uint16_t cName, uint16_t* str);
 }
 
 int main()
@@ -49,9 +51,8 @@ int main()
 
 
 	int arr[] = { 1,1,1,1 };
-	std::cout << "sum of array is = " << sumArray(arr, 4) << std::endl;
-	*/
-
+	std::cout << "sum of array is = " << sumArray(arr, 4) << std::endl
+	// ========================twoD====================================
 	int arr[][4] = { {1,1,1,1}, {1,1,1,1} , {1,1,1,1} };
 	twoD((int *)arr, 4, 3);
 	for (int i = 0; i < 3; i++) {
@@ -60,4 +61,16 @@ int main()
 		}
 		std::cout << std::endl;
 	}
+	// ============================================================
+	char src[] = "12345";
+	char dst[6];
+	cpyString(dst, src, 5);
+	std::cout << dst << std::endl
+	*/
+	// ============================================================
+
+	uint16_t var[] = { 0x0001 , 0x0002, 0x0001, 0x1001 };
+	uint16_t a = 1;
+	int ret = countCharacters(a, var);
+	std::cout << "num of 1 in 1211 is: " << ret << std::endl;
 }

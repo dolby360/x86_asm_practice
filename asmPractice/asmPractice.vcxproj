@@ -147,6 +147,8 @@
     <MASM Include="addThreeNumbers.asm" />
     <MASM Include="allocate_local_var_on_stack.asm" />
     <MASM Include="calcArraySum.asm" />
+    <MASM Include="copyString.asm" />
+    <MASM Include="countCharacters.asm" />
     <MASM Include="findMin.asm" />
     <MASM Include="lookupTable.asm" />
     <MASM Include="mulDiv.asm" />

@@ -47,5 +47,11 @@
     <MASM Include="2dArray.asm">
       <Filter>Source Files</Filter>
     </MASM>
+    <MASM Include="copyString.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="countCharacters.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
   </ItemGroup>
 </Project>
