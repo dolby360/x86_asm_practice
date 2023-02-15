@@ -149,8 +149,10 @@
     <MASM Include="calcArraySum.asm" />
     <MASM Include="copyString.asm" />
     <MASM Include="countCharacters.asm" />
+    <MASM Include="fahrenheit_to_celsius.asm" />
     <MASM Include="findMin.asm" />
     <MASM Include="lookupTable.asm" />
+    <MASM Include="mmx.asm" />
     <MASM Include="mulDiv.asm" />
     <MASM Include="prac.asm">
       <FileType>Document</FileType>

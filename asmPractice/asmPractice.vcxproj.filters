@@ -53,5 +53,11 @@
     <MASM Include="countCharacters.asm">
       <Filter>Source Files</Filter>
     </MASM>
+    <MASM Include="fahrenheit_to_celsius.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="mmx.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
   </ItemGroup>
 </Project>
