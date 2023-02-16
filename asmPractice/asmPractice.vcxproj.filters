@@ -59,5 +59,8 @@
     <MASM Include="mmx.asm">
       <Filter>Source Files</Filter>
     </MASM>
+    <MASM Include="sse.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
   </ItemGroup>
 </Project>

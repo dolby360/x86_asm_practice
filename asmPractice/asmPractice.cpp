@@ -27,6 +27,7 @@ extern "C" {
 	double fahrenheitToCelsius(double deg);
 	uint8_t *mmx_ans;
 	uint64_t mmx(mmxUnion a, mmxUnion b);
+	void sseArithmeticFloat(float a, float b, float c[8]);
 }
 
 int main()
@@ -88,7 +89,7 @@ int main()
 	}
 
 	// ====================== MMX ===============
-		*/
+
 	mmxUnion a;
 	mmxUnion b;
 	for (int i = 0; i < 8; i++) {
@@ -101,7 +102,12 @@ int main()
 		res >>= 8;
 	}
 	std::cout << std::endl;
-
-
+	*/
+	float c[8] = {0};
+	sseArithmeticFloat(0.5, 0.2, c);
+	for (int i = 0; i < 8; i++) {
+		std::cout << " " << c[i];
+	}
+	std::cout << std::endl;
 }
 

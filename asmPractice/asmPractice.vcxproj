@@ -157,6 +157,7 @@
     <MASM Include="prac.asm">
       <FileType>Document</FileType>
     </MASM>
+    <MASM Include="sse.asm" />
     <MASM Include="useGlobal.asm" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
